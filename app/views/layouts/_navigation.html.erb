@@ -8,11 +8,7 @@
     </div>
 
     <ul class="nav pull-right">
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Listings & Recent Activity", pages_listing_path %></li>
-      <li><%= link_to "BPO, REO, Short Sales", pages_bpo_path %></li>
-      <li><%= link_to "Let's Talk", pages_talk_path %></li>
-      <li><%= link_to "About Beth and FGR", pages_about_path %></li>
+      <%= render 'layouts/shared/nav_links' %>
     </ul>
 
   </div>
