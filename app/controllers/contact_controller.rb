@@ -1,18 +1,9 @@
-class PagesController < ApplicationController
-  def home
-  end
-
-  def listing
-  end
-
-  def bpo
-  end
-
-  def talk
+class ContactController < ApplicationController
+  def new
     @message = Message.new
   end
 
-  def create_message
+  def create
     @message = Message.new(params[:message])
 
     if @message.valid?
@@ -20,10 +11,7 @@ class PagesController < ApplicationController
       redirect_to(root_path, :notice => "Message was successfully sent.")
     else
       flash.now.alert = "Please fill all fields."
-      render :talk
+      render :new
     end
-  end
-
-  def about
   end
 end

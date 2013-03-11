@@ -1,30 +1,30 @@
-Name:
-Address:
-City State ZIP:
-Email:
-Daytime phone:
-Cell:
+<%= simple_form_for @message, :url => pages_talk_path, :html => { :class => 'form-horizontal' } do |form| %>
+    <div class="row">
+      <div class="span4">
+        <fieldset>
+          <legend>Your Contact Information</legend>
+            <%= form.input :name %>
+            <%= form.input :email %>
+            <%= form.input :phone, label: 'Daytime Phone' %>
+            <%= form.input :cell, label: 'Cell Phone' %>
+            <%= form.input :address1 %>
+            <%= form.input :address2 %>
+            <%= form.input :city %>
+            <%= form.input :state %>
+            <%= form.input :zipcode %>
+        </fieldset>
+      </div>
 
-I’m interested in:
-Buying    Selling   Investing   BPO/REO/Short Sale
-
-Location of interest:
-(zip codes?)
-
-Price range:
-Below $50,000
-$50,000 to $100,000
-$100,000 to $150,000
-$150,000 to $200,000
-$200,000 to $250,000
-$250,000 to $500,000
-$500,000 and above
-
-Key factors:
-# of bedrooms
-# of baths
-# of garage spaces
-Fireplace
-Pool
-Deck
-Other (open comment box)
+      <div class="span4">
+        <fieldset>
+          <legend>What You're Looking For</legend>
+            <%= form.input :interest, collection: ['Buying', 'Selling', 'Investing', 'BPO/REO/Short Sale'] %>
+            <%= form.input :location %>
+            <%= form.input :price_range, collection: ['Below $50,000', '$50,000 to $100,000', '$100,000 to $150,000', '$150,000 to $200,000', '$200,000 to $250,000', '$250,000 to $500,000', '$500,000 and above'] %>
+            <%= form.input :key_factors, collection: ['# of bedrooms', '# of baths', '# of garage spaces', 'Fireplace', 'Pool', 'Deck', 'Other'], :as => :check_boxes %>
+            <%= form.input :comment, :as => :text %>
+        </fieldset>
+      </div>
+    </div>
+  <%= form.button :submit %>
+<% end %>

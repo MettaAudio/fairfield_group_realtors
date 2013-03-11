@@ -1,13 +1,14 @@
 FairfieldGroupRealtors::Application.routes.draw do
   get "pages/home"
 
-  get "pages/talk"
-
   get "pages/listing"
 
   get "pages/bpo"
 
   get "pages/about"
+
+  match 'pages/talk' => 'pages#talk', :as => 'talk', :via => :get
+  match 'pages/talk' => 'pages#create_message', :as => 'talk', :via => :post
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
