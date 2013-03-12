@@ -2,6 +2,24 @@ Name: <%= @message.name %>
 
 Email: <%= @message.email %>
 
-Subject: <%= @message.subject %>
+Address:
+<%= @message.address %>
+<%= @message.city %>
+<%= @message.state %>
+<%= @message.zipcode %>
 
-Body: <%= @message.body %>
+Phone: <%= @message.phone %>
+
+Cell: <%= @message.cell %>
+
+Interested in: <%= @message.interest %>
+
+Location: <%= @message.location %>
+
+Price Range: <%= @message.price_range %>
+
+Key Factors: <% @message.key_factors.each do |factor| %>
+  <%= factor.html_safe -%>
+<% end %>
+
+Comments: <%= @message.comment %>

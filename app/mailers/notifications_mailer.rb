@@ -5,4 +5,5 @@ class NotificationsMailer < ActionMailer::Base
   def new_message(message)
     @message = message
     mail(:subject => "Email from your website mailer")
-  endend
+  end
+end

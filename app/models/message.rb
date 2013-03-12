@@ -5,8 +5,7 @@ class Message
   extend ActiveModel::Naming
 
   attr_accessor :name,
-                :address1,
-                :address2,
+                :address,
                 :city,
                 :state,
                 :zipcode,
