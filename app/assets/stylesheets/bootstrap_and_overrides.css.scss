@@ -1,4 +1,37 @@
+// Font
 $sansFontFamily: Futura, Verdana, Sans-Serif;
+
+// Colors
+$darkBlue: #00375C;
+$lightBlue: #E5EAEF;
+$lightTeal: #E0F0EB;
+$logoTeal: #91C5B2;
+
+// Bootstrap Overrides
+$linkColor: $darkBlue;
+$linkColorHover: lighten($linkColor, 15%);
+$navbarLinkColorHover: $darkBlue;
+
 @import "bootstrap";
 @import "bootstrap-responsive";
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  color: #555555;
+  background-color: $lightTeal;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+ h1 {
+  color: $darkBlue;
+  border-bottom: 1px $darkBlue solid;
+ }
+
+ .well {
+  background-color: $lightBlue;
+ }
 

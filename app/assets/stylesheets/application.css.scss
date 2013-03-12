@@ -12,6 +12,8 @@
  *= require_tree .
  */
 
+ $grayLight: #AAA;
+
  body {
   background-image: image-url('dot_background.png');
   padding-top: 110px;
@@ -30,8 +32,9 @@
   border: 1px solid #ccc;
 }
 
+
 .quote {
-  color: #BBB;
+  color: $grayLight;
   text-align: right;
   background-image: image-url('blue_quotes.png');
   background-repeat:no-repeat;
@@ -39,7 +42,16 @@
 }
 
 .sidebar {
-  width: 270px;
+  text-align: right;
+  .icon img {
+    margin: 12px 6px;
+  }
+  .quote, h4 {
+    margin-top: 40px;
+  }
+  h3, h4 {
+    margin-bottom: 0;
+  }
 }
 
 .footer {

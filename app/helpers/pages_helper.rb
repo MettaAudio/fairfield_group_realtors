@@ -1,4 +1,9 @@
 module PagesHelper
+
+  def is_active?(page_name)
+    " class='active'".html_safe if params[:action] == page_name
+  end
+
   def us_states
     [
       'Alabama',
