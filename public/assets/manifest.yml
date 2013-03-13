@@ -1,18 +1,22 @@
 ---
 FGR-logo_128x73.png: FGR-logo_128x73-d6797e038fd6cf929936146e5e1a303d.png
 FGR-logo_128x73/index.png: FGR-logo_128x73-d6797e038fd6cf929936146e5e1a303d.png
+beth_in_frame.png: beth_in_frame-afa8e58fc1f6b8d0b6a2a8a9b90d4877.png
+beth_in_frame/index.png: beth_in_frame-afa8e58fc1f6b8d0b6a2a8a9b90d4877.png
 beth_walker_200x280.jpg: beth_walker_200x280-5bc7ef79622107f1218c30f924583032.jpg
 beth_walker_200x280/index.jpg: beth_walker_200x280-5bc7ef79622107f1218c30f924583032.jpg
 blue_quotes.png: blue_quotes-40f99b9e5bbb2ce12f793ffde7dd1f1a.png
 blue_quotes/index.png: blue_quotes-40f99b9e5bbb2ce12f793ffde7dd1f1a.png
+blue_quotes_mask.png: blue_quotes_mask-f63fc039baf627cfe2d38ef465cc7039.png
+blue_quotes_mask/index.png: blue_quotes_mask-f63fc039baf627cfe2d38ef465cc7039.png
 community_icons/small/BBB-logo.png: community_icons/small/BBB-logo-c90cb9b7fb5c3a7be0503f20326b9987.png
 community_icons/small/BBB-logo/index.png: community_icons/small/BBB-logo-c90cb9b7fb5c3a7be0503f20326b9987.png
 community_icons/small/CitySeal.png: community_icons/small/CitySeal-0eb753bfe253f43a439bf38a697e1297.png
 community_icons/small/CitySeal/index.png: community_icons/small/CitySeal-0eb753bfe253f43a439bf38a697e1297.png
 community_icons/small/DID.png: community_icons/small/DID-0cc9d3879449e0dab4f8ea20ced6c775.png
 community_icons/small/DID/index.png: community_icons/small/DID-0cc9d3879449e0dab4f8ea20ced6c775.png
-community_icons/small/VisitFW.png: community_icons/small/VisitFW-396f7f10aac85c08bdacb80a09d1f96c.png
-community_icons/small/VisitFW/index.png: community_icons/small/VisitFW-396f7f10aac85c08bdacb80a09d1f96c.png
+community_icons/small/VisitFW.png: community_icons/small/VisitFW-c4113a252c37cb377d5750d113399dee.png
+community_icons/small/VisitFW/index.png: community_icons/small/VisitFW-c4113a252c37cb377d5750d113399dee.png
 community_icons/small/WCNA.png: community_icons/small/WCNA-df913d2fcb90bb02b7a8044134e09acf.png
 community_icons/small/WCNA/index.png: community_icons/small/WCNA-df913d2fcb90bb02b7a8044134e09acf.png
 community_icons/small/arch.png: community_icons/small/arch-05ca9aa018169745a4f6ca9dd7fd60bd.png
@@ -33,6 +37,10 @@ home_carousel/tin_caps_night_game.jpg: home_carousel/tin_caps_night_game-9173f50
 home_carousel/tin_caps_night_game/index.jpg: home_carousel/tin_caps_night_game-9173f50687c200488dbb45fae3ae4192.jpg
 home_carousel/vintage_neighborhood.jpg: home_carousel/vintage_neighborhood-6dc38ebf9a7e3eb56f909d7d901e1122.jpg
 home_carousel/vintage_neighborhood/index.jpg: home_carousel/vintage_neighborhood-6dc38ebf9a7e3eb56f909d7d901e1122.jpg
+paper_background.jpg: paper_background-2e1a52882fc9f7916c5ba7dcf009ba06.jpg
+paper_background/index.jpg: paper_background-2e1a52882fc9f7916c5ba7dcf009ba06.jpg
+paper_background_light.jpg: paper_background_light-d3c7f4f6b8477d65ca535b54320798cc.jpg
+paper_background_light/index.jpg: paper_background_light-d3c7f4f6b8477d65ca535b54320798cc.jpg
 profession_icons/large/EQUATOR_REO-SHORTSALE.png: profession_icons/large/EQUATOR_REO-SHORTSALE-a15df99c413d1ff29700be8747b18512.png
 profession_icons/large/EQUATOR_REO-SHORTSALE/index.png: profession_icons/large/EQUATOR_REO-SHORTSALE-a15df99c413d1ff29700be8747b18512.png
 profession_icons/large/Five Star_REO_LOGO_2010.png: profession_icons/large/Five Star_REO_LOGO_2010-22b5d53ce2f365974497594ba224cd80.png
@@ -58,8 +66,8 @@ profession_icons/small/realtor_logo.png: profession_icons/small/realtor_logo-05a
 profession_icons/small/realtor_logo/index.png: profession_icons/small/realtor_logo-05a7d37b8cbd6b2595a86ceb63c8765c.png
 application.js: application-a9e619518210c5388d52cd804d3fc547.js
 application/index.js: application-a9e619518210c5388d52cd804d3fc547.js
-application.css: application-ac6fd6c49ea958c336821b08154ca340.css
-application/index.css: application-ac6fd6c49ea958c336821b08154ca340.css
+application.css: application-be87e832de6e45468367864d5e1c4ff3.css
+application/index.css: application-be87e832de6e45468367864d5e1c4ff3.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png

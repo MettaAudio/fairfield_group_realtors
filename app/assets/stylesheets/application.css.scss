@@ -20,7 +20,7 @@
  }
 
 .content {
-  background-color: #fff;
+  background-image: image-url('paper_background.jpg');
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 9px;
@@ -36,9 +36,9 @@
 .quote {
   color: $grayLight;
   text-align: right;
-  background-image: image-url('blue_quotes.png');
+  background-image: image-url('blue_quotes_mask.png');
   background-repeat:no-repeat;
-  background-position: 0px -7px;
+  background-position: top left;
 }
 
 .sidebar {
@@ -52,6 +52,14 @@
   h3, h4 {
     margin-bottom: 0;
   }
+  .framed_photo {
+    margin-bottom: -47px;
+    margin-right: -18px;
+  }
+}
+
+.bpo_services li {
+  margin-top: 12px;
 }
 
 .footer {
