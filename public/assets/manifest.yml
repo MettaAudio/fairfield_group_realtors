@@ -1,6 +1,8 @@
 ---
 FGR-logo_128x73.png: FGR-logo_128x73-d6797e038fd6cf929936146e5e1a303d.png
 FGR-logo_128x73/index.png: FGR-logo_128x73-d6797e038fd6cf929936146e5e1a303d.png
+FGR-logo_179x102.png: FGR-logo_179x102-c99b4b9ae04feecb385d3622175db9db.png
+FGR-logo_179x102/index.png: FGR-logo_179x102-c99b4b9ae04feecb385d3622175db9db.png
 beth_in_frame.png: beth_in_frame-afa8e58fc1f6b8d0b6a2a8a9b90d4877.png
 beth_in_frame/index.png: beth_in_frame-afa8e58fc1f6b8d0b6a2a8a9b90d4877.png
 beth_walker_200x280.jpg: beth_walker_200x280-5bc7ef79622107f1218c30f924583032.jpg
@@ -66,8 +68,8 @@ profession_icons/small/realtor_logo.png: profession_icons/small/realtor_logo-05a
 profession_icons/small/realtor_logo/index.png: profession_icons/small/realtor_logo-05a7d37b8cbd6b2595a86ceb63c8765c.png
 application.js: application-a9e619518210c5388d52cd804d3fc547.js
 application/index.js: application-a9e619518210c5388d52cd804d3fc547.js
-application.css: application-be87e832de6e45468367864d5e1c4ff3.css
-application/index.css: application-be87e832de6e45468367864d5e1c4ff3.css
+application.css: application-899c689f9a9d7002b98d8446b31948d2.css
+application/index.css: application-899c689f9a9d7002b98d8446b31948d2.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png

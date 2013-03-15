@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Fairfield Group Realtors" %></title>
     <meta name="description" content="">
     <meta name="author" content="">
@@ -12,13 +11,14 @@
     <%= yield(:head) %>
   </head>
   <body>
-    <header class="navbar navbar-fixed-top">
-      <nav class="navbar-inner">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
         <div class="container">
           <%= render 'layouts/navigation' %>
         </div>
-      </nav>
-    </header>
+      </div>
+    </div>
+
     <div id="main" role="main">
       <div class="container">
         <div class="content">
@@ -27,7 +27,9 @@
               <%= render 'layouts/messages' %>
 
               <div class="row">
-                <%= render 'layouts/sidebar' %>
+                <div class="span3 sidebar">
+                  <%= render 'layouts/sidebar' %>
+                </div>
                 <div class="span9">
                   <%= yield %>
                 </div>
@@ -36,9 +38,10 @@
           </div>
         </div>
         <div class="content footer">
-          <footer>
+
+          <div>
             <%= render 'layouts/footer' %>
-          </footer>
+          </div>
         </div>
       </div> <!--! end of .container -->
     </div> <!--! end of #main -->

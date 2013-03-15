@@ -16,12 +16,22 @@
 
  body {
   background-image: image-url('dot_background.png');
-  padding-top: 110px;
+ }
+
+ #main { margin-top: 140px;}
+
+ .navbar-inner {
+  height: 127px;
+  .quote {
+    margin-top: 10px;
+    height: 70px;
+  }
  }
 
 .content {
   background-image: image-url('paper_background.jpg');
   padding: 20px;
+  width: 940px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
